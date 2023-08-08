@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KuliTech website</title>
+    <script src="index.js" defer></script>
+</head>
+<body>
+<main>
+    <h1 id="company_name">KuliTech Application</h1>
+        <section>
+            <h2>Kuli Kuli Photos </h2>
+            <p>See more photos here</p>
+            <img style="height: 35vh; width: 34vh;" src="/webDev/image/kuliTech.jpg">
+        </section>
+
+    <section>
+        <h2>Kuli List</h2>
+        <h3>Things Kuli eaters love:</h3>
+        <ul>
+            <li>Programming</li>
+            <li>Garri</li>
+            <li>Sugar</li>
+            <li>Cold water</li>
+            <li>Groceries</li>
+            <li>Omiewa</li>
+        </ul>
+        <figure>
+            <img style="height: 45vh; width: 34vw;" src="https://images.unsplash.com/photo-1628619876503-2db74e724757?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=910&q=80">
+            <figcaption>Kuli lovers <strong>needs</strong> sugar for the Groceries</figcaption>
+        </figure>
+    </section>
+
+    <section>
+        <table id="priceTable">
+
+            <tr>
+                <th>Grocery</th>
+                <th>Price</th>
+            </tr>
+            <!-- <tr>
+                <td>Garri</td>
+                <td>500</td>
+            </tr> -->
+
+        </table>
+        <form>
+            <label>Grocery</label>
+            <input type="text" id="grocery">
+
+            <label>Price</label>
+            <input type="text" id="price">
+
+            <button onclick="add()">Add</button>
+            <button>Total</button>
+        </form>
+    </section>
+
+</main>
+</body>
+</html>

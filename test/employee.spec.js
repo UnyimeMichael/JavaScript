@@ -12,6 +12,12 @@ describe("Tests for Employee Object", () =>{
     test("should assign salary based on designation", () => {
         let oyin = new Employee("oyin", "+23476879876", "cook");
         let response = oyin.paySalary();
-        
+        expect(response.isSuccessful).toBe(true);
+        expect(response.designation).toBe("cook");
+        expect(response.salary).toBe(2000);
+    })
+    test("should return 'salary not assigned' for unassigned role", () => {
+        let timi = new Employee("Timi", "+23480767873844", "CEO");
+        let 
     })
 })
